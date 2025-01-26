@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000706] (motors) JobQueued: {'identifier': 'motors', 'dependencies': OrderedDict()}
+[0.002146] (motors) JobStarted: {'identifier': 'motors'}
+[0.099385] (-) TimerEvent: {}
+[0.201181] (-) TimerEvent: {}
+[0.301940] (-) TimerEvent: {}
+[0.402778] (-) TimerEvent: {}
+[0.503648] (-) TimerEvent: {}
+[0.604461] (-) TimerEvent: {}
+[0.705263] (-) TimerEvent: {}
+[0.806055] (-) TimerEvent: {}
+[0.906895] (-) TimerEvent: {}
+[1.089393] (-) TimerEvent: {}
+[1.190251] (-) TimerEvent: {}
+[1.291687] (-) TimerEvent: {}
+[1.393714] (-) TimerEvent: {}
+[1.496181] (-) TimerEvent: {}
+[1.597045] (-) TimerEvent: {}
+[1.697885] (-) TimerEvent: {}
+[1.798751] (-) TimerEvent: {}
+[1.899712] (-) TimerEvent: {}
+[2.000599] (-) TimerEvent: {}
+[2.101520] (-) TimerEvent: {}
+[2.202381] (-) TimerEvent: {}
+[2.303288] (-) TimerEvent: {}
+[2.404130] (-) TimerEvent: {}
+[2.505103] (-) TimerEvent: {}
+[2.606031] (-) TimerEvent: {}
+[2.706927] (-) TimerEvent: {}
+[2.807889] (-) TimerEvent: {}
+[2.908756] (-) TimerEvent: {}
+[3.009630] (-) TimerEvent: {}
+[3.110510] (-) TimerEvent: {}
+[3.211412] (-) TimerEvent: {}
+[3.246335] (motors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motors', 'build', '--build-base', '/home/xavier/repos/BALL-E/ros2_ws/build/motors/build', 'install', '--record', '/home/xavier/repos/BALL-E/ros2_ws/build/motors/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/xavier/repos/BALL-E/ros2_ws/src/motors', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'OPENBLAS_CORETYPE': 'ARMV8', 'SPACESHIP_ROOT': 'Terminal/plugins/spaceship-prompt', 'USER': 'xavier', 'SSH_CLIENT': '192.168.196.54 60120 22', 'XDG_SESSION_TYPE': 'tty', 'SHELL_STANDARD_ENV_SOURCE': '/home/xavier/Terminal/', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/lib/llvm-8/lib::/usr/local/cuda-11.4/lib64', 'HOME': '/home/xavier', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/xavier/repos/BALL-E', 'SHELL_STANDARD_ENV_VERSION_PATCH': '1', 'SSH_TTY': '/dev/pts/1', 'SHELL_STANDARD_ENV_SECRET_SOURCE': '/home/xavier/Personal/Terminal', 'ZSH': '/home/xavier/.oh-my-zsh', 'ROS_PYTHON_VERSION': '3', 'NIX_PROFILES': '/nix/var/nix/profiles/default /home/xavier/.nix-profile', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR': '/home/xavier/Terminal//plugins/zsh-syntax-highlighting/highlighters', 'VISUAL': 'code', 'NIX_PATH': ':/home/xavier/.nix-defexpr/channels:/nix/var/nix/profiles/per-user/xavier/channels', 'LC_TERMINAL_VERSION': '3.5.11', 'NIXPKGS_ALLOW_UNFREE': '1', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/xavier/repos/BALL-E/ros2_ws/install', 'LOGNAME': 'xavier', 'SHELL_STANDARD_ENV_VERSION_MAJOR': '0', 'EXA_COLORS': 'reset:\n    #\n    # file extensions\n    #\n        # hidden types\n        :.*=2:\n        # doc types\n        :*.pdf=35:*.md=35:*.html=35:*.tex=35:\n        # config types\n        :*.cfg=36:*.json=36:*.yaml=36:*.toml=36:*.xml:\n        # image types\n        :*.png=36:*.gif=36:*.jpg=36:*.jpeg=36:\n        # video types\n        :*.mov=33:*.mp4=33:*.avi=33:\n        # TODO audio types and more video types\n        # code types\n        :*.js=32:*.py=32:*.rb=32:*.rs=32:*.sh=32:*.bash=32:*.zsh=32:*.c=32:*.cpp=32:*.coffee=32:*.h=32:*.lua=32:*.java=32:*.ts=32:*.ps1=32:*.pl=32:*.jsx=32:*.jl=32:*.hs=32:*.cr=32:*.css=32:*.sass=32:*.less=32:*.ipynb=32:*.nix=32:\n    # file kind\n    :ex=31:\n    :lp=35;4:\n    # read\n    :ur=32;2:gr=32;2:tr=32;2:\n    # write\n    :uw=33;2:gw=33;2:tw=33;2:\n    # execute\n    :ux=31;2:ue=31;2:gx=31;2:tx=31;2:\n    :xa=2:\n    #\n    # file sizes\n    #\n        # small\n        :sn=37;2:nb=37;2:nk=37;2:\n        :ub=37;2:uk=37;2:\n        # medium\n        :nm=34:\n        :um=34:\n        # big\n        :ng=32;1:nt=32;1:\n        :ug=32;1:ut=32;1:\n    # user\n    :uu=;2:un=;2:gu=;2:gn=36;2:\n    # date\n    :da=35;1;2:', 'SHELL_STANDARD_ENV_COMMANDS': '/home/xavier/Commands/:/home/xavier/repos/cv_dark/commands/', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'SHELL_STANDARD_ENV_SECRET_COMMANDS': '/home/xavier/Personal/Commands', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/xavier/.nix-profile/bin:/home/xavier/.nix-profile/bin:/home/xavier/cmake-3.25.2/cmake-3.25.2-build/bin:/home/xavier/.local/bin:/home/xavier/.nix-profile/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xavier/Personal/Commands:/home/xavier/Commands/:/home/xavier/repos/cv_dark/commands/:/home/xavier/.local/bin:/usr/local/cuda-11.4/bin/', 'XDG_RUNTIME_DIR': '/run/user/1001', 'HISTSIZE': '10000', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgtk3-nocsd.so.0:', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/xavier/repos/BALL-E/ros2_ws/install/motors:/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'SHELL_STANDARD_ENV_VERSION_MINOR': '0', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_TERMINAL': 'iTerm2', 'NIX_SSL_CERT_FILE': '/etc/ssl/certs/ca-certificates.crt', 'SAVEHIST': '10000', 'SPACESHIP_VERSION': '3.16.2', 'PWD': '/home/xavier/repos/BALL-E/ros2_ws/build/motors', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.196.54 60120 192.168.196.102 22', 'PYTHONPATH': '/home/xavier/repos/BALL-E/ros2_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages:/home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages::/usr/lib/python3/dist-packages/pyrealsense2:/home/xavier/cv_main/main:/home/xavier/cv_dark/main:/usr/local/lib/python3.8/site-packages/', 'HISTFILE': '/home/xavier/.zsh_history', 'COLCON': '1', 'EDITOR': 'code'}, 'shell': False}
+[3.311898] (-) TimerEvent: {}
+[3.413272] (-) TimerEvent: {}
+[3.514112] (-) TimerEvent: {}
+[3.614919] (-) TimerEvent: {}
+[3.715758] (-) TimerEvent: {}
+[3.816607] (-) TimerEvent: {}
+[3.917478] (-) TimerEvent: {}
+[4.018284] (-) TimerEvent: {}
+[4.119193] (-) TimerEvent: {}
+[4.220098] (-) TimerEvent: {}
+[4.321035] (-) TimerEvent: {}
+[4.421925] (-) TimerEvent: {}
+[4.448561] (motors) StdoutLine: {'line': b'running egg_info\n'}
+[4.451122] (motors) StdoutLine: {'line': b'writing ../../build/motors/motors.egg-info/PKG-INFO\n'}
+[4.452334] (motors) StdoutLine: {'line': b'writing dependency_links to ../../build/motors/motors.egg-info/dependency_links.txt\n'}
+[4.453768] (motors) StdoutLine: {'line': b'writing entry points to ../../build/motors/motors.egg-info/entry_points.txt\n'}
+[4.455889] (motors) StdoutLine: {'line': b'writing requirements to ../../build/motors/motors.egg-info/requires.txt\n'}
+[4.456607] (motors) StdoutLine: {'line': b'writing top-level names to ../../build/motors/motors.egg-info/top_level.txt\n'}
+[4.522112] (-) TimerEvent: {}
+[4.583019] (motors) StdoutLine: {'line': b"reading manifest file '../../build/motors/motors.egg-info/SOURCES.txt'\n"}
+[4.586576] (motors) StdoutLine: {'line': b"writing manifest file '../../build/motors/motors.egg-info/SOURCES.txt'\n"}
+[4.587743] (motors) StdoutLine: {'line': b'running build\n'}
+[4.588163] (motors) StdoutLine: {'line': b'running build_py\n'}
+[4.589044] (motors) StdoutLine: {'line': b'running install\n'}
+[4.592241] (motors) StdoutLine: {'line': b'running install_lib\n'}
+[4.598871] (motors) StdoutLine: {'line': b'running install_data\n'}
+[4.600050] (motors) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.606906] (motors) StdoutLine: {'line': b"removing '/home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.608663] (motors) StdoutLine: {'line': b'Copying ../../build/motors/motors.egg-info to /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors-0.0.0-py3.8.egg-info\n'}
+[4.613609] (motors) StdoutLine: {'line': b'running install_scripts\n'}
+[4.622241] (-) TimerEvent: {}
+[4.673759] (motors) StdoutLine: {'line': b'Installing wheels = motors.wheels:mainlistener script to /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/motors\n'}
+[4.676166] (motors) StdoutLine: {'line': b"writing list of installed files to '/home/xavier/repos/BALL-E/ros2_ws/build/motors/install.log'\n"}
+[4.722528] (-) TimerEvent: {}
+[4.766842] (motors) CommandEnded: {'returncode': 0}
+[4.817171] (motors) JobEnded: {'identifier': 'motors', 'rc': 0}
+[4.820926] (-) EventReactorShutdown: {}

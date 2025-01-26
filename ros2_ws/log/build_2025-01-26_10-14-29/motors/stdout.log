@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/motors/motors.egg-info
+writing ../../build/motors/motors.egg-info/PKG-INFO
+writing dependency_links to ../../build/motors/motors.egg-info/dependency_links.txt
+writing entry points to ../../build/motors/motors.egg-info/entry_points.txt
+writing requirements to ../../build/motors/motors.egg-info/requires.txt
+writing top-level names to ../../build/motors/motors.egg-info/top_level.txt
+writing manifest file '../../build/motors/motors.egg-info/SOURCES.txt'
+reading manifest file '../../build/motors/motors.egg-info/SOURCES.txt'
+writing manifest file '../../build/motors/motors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xavier/repos/BALL-E/ros2_ws/build/motors/build
+creating /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib
+creating /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors
+copying motors/wheels.py -> /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors
+copying motors/__init__.py -> /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors
+running install
+running install_lib
+creating /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors
+copying /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors/wheels.py -> /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors
+copying /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors/__init__.py -> /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors
+byte-compiling /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors/wheels.py to wheels.cpython-38.pyc
+byte-compiling /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/ament_index
+creating /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/ament_index/resource_index
+creating /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/ament_index/resource_index/packages
+copying resource/motors -> /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/ament_index/resource_index/packages
+copying package.xml -> /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/motors
+running install_egg_info
+Copying ../../build/motors/motors.egg-info to /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors-0.0.0-py3.8.egg-info
+running install_scripts
+Installing wheels script to /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/motors
+writing list of installed files to '/home/xavier/repos/BALL-E/ros2_ws/build/motors/install.log'

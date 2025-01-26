@@ -1,0 +1,4 @@
+[console_scripts]
+listener = motors.subscriber_member_function:main
+wheels = motors.wheels:main
+

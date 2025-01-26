@@ -1,0 +1,121 @@
+[5.709s] Invoking command in '/home/xavier/repos/BALL-E/ros2_ws/src/motors': EXA_COLORS=reset:
+    #
+    # file extensions
+    #
+        # hidden types
+        :.*=2:
+        # doc types
+        :*.pdf=35:*.md=35:*.html=35:*.tex=35:
+        # config types
+        :*.cfg=36:*.json=36:*.yaml=36:*.toml=36:*.xml:
+        # image types
+        :*.png=36:*.gif=36:*.jpg=36:*.jpeg=36:
+        # video types
+        :*.mov=33:*.mp4=33:*.avi=33:
+        # TODO audio types and more video types
+        # code types
+        :*.js=32:*.py=32:*.rb=32:*.rs=32:*.sh=32:*.bash=32:*.zsh=32:*.c=32:*.cpp=32:*.coffee=32:*.h=32:*.lua=32:*.java=32:*.ts=32:*.ps1=32:*.pl=32:*.jsx=32:*.jl=32:*.hs=32:*.cr=32:*.css=32:*.sass=32:*.less=32:*.ipynb=32:*.nix=32:
+    # file kind
+    :ex=31:
+    :lp=35;4:
+    # read
+    :ur=32;2:gr=32;2:tr=32;2:
+    # write
+    :uw=33;2:gw=33;2:tw=33;2:
+    # execute
+    :ux=31;2:ue=31;2:gx=31;2:tx=31;2:
+    :xa=2:
+    #
+    # file sizes
+    #
+        # small
+        :sn=37;2:nb=37;2:nk=37;2:
+        :ub=37;2:uk=37;2:
+        # medium
+        :nm=34:
+        :um=34:
+        # big
+        :ng=32;1:nt=32;1:
+        :ug=32;1:ut=32;1:
+    # user
+    :uu=;2:un=;2:gu=;2:gn=36;2:
+    # date
+    :da=35;1;2: PYTHONPATH=/home/xavier/repos/BALL-E/ros2_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motors build --build-base /home/xavier/repos/BALL-E/ros2_ws/build/motors/build install --record /home/xavier/repos/BALL-E/ros2_ws/build/motors/install.log --single-version-externally-managed install_data
+[7.054s] running egg_info
+[7.055s] creating ../../build/motors/motors.egg-info
+[7.185s] writing ../../build/motors/motors.egg-info/PKG-INFO
+[7.186s] writing dependency_links to ../../build/motors/motors.egg-info/dependency_links.txt
+[7.187s] writing entry points to ../../build/motors/motors.egg-info/entry_points.txt
+[7.187s] writing requirements to ../../build/motors/motors.egg-info/requires.txt
+[7.187s] writing top-level names to ../../build/motors/motors.egg-info/top_level.txt
+[7.188s] writing manifest file '../../build/motors/motors.egg-info/SOURCES.txt'
+[7.317s] reading manifest file '../../build/motors/motors.egg-info/SOURCES.txt'
+[7.320s] writing manifest file '../../build/motors/motors.egg-info/SOURCES.txt'
+[7.320s] running build
+[7.321s] running build_py
+[7.322s] creating /home/xavier/repos/BALL-E/ros2_ws/build/motors/build
+[7.322s] creating /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib
+[7.322s] creating /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors
+[7.327s] copying motors/wheels.py -> /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors
+[7.328s] copying motors/__init__.py -> /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors
+[7.329s] running install
+[7.332s] running install_lib
+[7.337s] creating /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors
+[7.337s] copying /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors/wheels.py -> /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors
+[7.338s] copying /home/xavier/repos/BALL-E/ros2_ws/build/motors/build/lib/motors/__init__.py -> /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors
+[7.340s] byte-compiling /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors/wheels.py to wheels.cpython-38.pyc
+[7.344s] byte-compiling /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors/__init__.py to __init__.cpython-38.pyc
+[7.345s] running install_data
+[7.346s] creating /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/ament_index
+[7.346s] creating /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/ament_index/resource_index
+[7.347s] creating /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/ament_index/resource_index/packages
+[7.347s] copying resource/motors -> /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/ament_index/resource_index/packages
+[7.348s] copying package.xml -> /home/xavier/repos/BALL-E/ros2_ws/install/motors/share/motors
+[7.348s] running install_egg_info
+[7.354s] Copying ../../build/motors/motors.egg-info to /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages/motors-0.0.0-py3.8.egg-info
+[7.358s] running install_scripts
+[7.421s] Installing wheels script to /home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/motors
+[7.422s] writing list of installed files to '/home/xavier/repos/BALL-E/ros2_ws/build/motors/install.log'
+[7.504s] Invoked command in '/home/xavier/repos/BALL-E/ros2_ws/src/motors' returned '0': EXA_COLORS=reset:
+    #
+    # file extensions
+    #
+        # hidden types
+        :.*=2:
+        # doc types
+        :*.pdf=35:*.md=35:*.html=35:*.tex=35:
+        # config types
+        :*.cfg=36:*.json=36:*.yaml=36:*.toml=36:*.xml:
+        # image types
+        :*.png=36:*.gif=36:*.jpg=36:*.jpeg=36:
+        # video types
+        :*.mov=33:*.mp4=33:*.avi=33:
+        # TODO audio types and more video types
+        # code types
+        :*.js=32:*.py=32:*.rb=32:*.rs=32:*.sh=32:*.bash=32:*.zsh=32:*.c=32:*.cpp=32:*.coffee=32:*.h=32:*.lua=32:*.java=32:*.ts=32:*.ps1=32:*.pl=32:*.jsx=32:*.jl=32:*.hs=32:*.cr=32:*.css=32:*.sass=32:*.less=32:*.ipynb=32:*.nix=32:
+    # file kind
+    :ex=31:
+    :lp=35;4:
+    # read
+    :ur=32;2:gr=32;2:tr=32;2:
+    # write
+    :uw=33;2:gw=33;2:tw=33;2:
+    # execute
+    :ux=31;2:ue=31;2:gx=31;2:tx=31;2:
+    :xa=2:
+    #
+    # file sizes
+    #
+        # small
+        :sn=37;2:nb=37;2:nk=37;2:
+        :ub=37;2:uk=37;2:
+        # medium
+        :nm=34:
+        :um=34:
+        # big
+        :ng=32;1:nt=32;1:
+        :ug=32;1:ut=32;1:
+    # user
+    :uu=;2:un=;2:gu=;2:gn=36;2:
+    # date
+    :da=35;1;2: PYTHONPATH=/home/xavier/repos/BALL-E/ros2_ws/build/motors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/repos/BALL-E/ros2_ws/install/motors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motors build --build-base /home/xavier/repos/BALL-E/ros2_ws/build/motors/build install --record /home/xavier/repos/BALL-E/ros2_ws/build/motors/install.log --single-version-externally-managed install_data

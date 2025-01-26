@@ -1,6 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 import atexit
+#fsfsfs
 
 pwm_pins = [33,15]
 on_off_pins1 = [31,29]
@@ -9,7 +10,7 @@ INIT_DUTY_CYCLE = 100
 
 def clean_up():
     print("cleaning up :)")
-    GPIO.clean_up
+    GPIO.cleanup()
 
 # ccw
 def toggle_direction_left():
@@ -57,16 +58,11 @@ pwm2 = GPIO.PWM(15, 50)
 pwm2.start(INIT_DUTY_CYCLE)
 
 go_forward()
-time.sleep(3)
+time.sleep(5)
 
-toggle_direction_left():
+toggle_direction_left()
 time.sleep(1)
 
-toggle_direction_right():
-time.sleep(2)
-
 go_forward()
-time.sleep(2)
-
-GPIO.cleanup()
+time.sleep(1)
 
